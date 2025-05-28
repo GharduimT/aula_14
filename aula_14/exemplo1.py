@@ -1,6 +1,6 @@
 #pip install sqlachemy pymysql
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine,text
 
 #variaveis de conexão
 host = 'localhost'
@@ -26,3 +26,5 @@ def conecta_banco():
                     print(item[0], item[1], item[2])
     except Exception as e:
         print(f'Algo deu errado: {e}')
+
+conecta_banco()
