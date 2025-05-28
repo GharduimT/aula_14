@@ -25,4 +25,4 @@ def conecta_banco():
                     print(item)  #imprime todas as coluna
                     print(item[0], item[1], item[2])
     except Exception as e:
-        print(f'Algo deu errado: {e}')
+        print (f'Algo deu errado: {e}')
